@@ -3,7 +3,7 @@ import streamlit.components.v1 as stc
 import pickle
 
 # Load the trained Logistic Regression model
-with open('Logistic_Regression_model.pkl', 'rb') as file:
+with open('Logistic_regression_model.pkl', 'rb') as file:
     Logistic_Regression_Model = pickle.load(file)
 
 # HTML Templates
